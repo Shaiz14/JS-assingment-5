@@ -80,13 +80,13 @@
 
 // Q No 08
 
-// var random = Math.ceil(Math.random() * 10);
+var random = Math.ceil(Math.random() * 10);
 
-// var userInput = +prompt("Enter a number");
+var userInput = +prompt("Enter a number");
 
-// if (random === userInput) {
-//   alert("Congratulate you guess the right one");
-// } else {
-//   alert("try again");
-// }
-// console.log(random);
+if (random === userInput) {
+  alert("Congratulate you guess the right one");
+} else {
+  alert("try again");
+}
+console.log(random);
